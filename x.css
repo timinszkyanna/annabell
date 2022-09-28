@@ -1,0 +1,11 @@
+td {
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+    background-color: darkorchid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
