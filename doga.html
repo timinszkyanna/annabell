@@ -1,0 +1,25 @@
+<input type="number" value="1" onchange="a=Number(this.value);f()">
+<input type="number" value="1" onchange="b=Number(this.value);f()">
+<hr>
+átfogó: <span id="c"></span>
+<hr>
+Kerület: <span id="k"></span>
+<hr>
+Terület: <span id="t"></span>
+<script>
+    a = 1
+    b = 1
+    function f() {
+        c = Math.sqrt(a**2 + b**2)
+        k = a + b + c
+        t = a * b / 2
+        document.getElementById("c").innerHTML = c
+        document.getElementById("k").innerHTML = k
+        document.getElementById("t").innerHTML = t
+    }
+</script>
+<style>
+    span {
+        background-color: aquamarine;
+    }
+</style>
